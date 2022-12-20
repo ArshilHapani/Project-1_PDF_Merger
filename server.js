@@ -5,7 +5,7 @@ const multer = require('multer');
 const { mergePDFs } = require('./mergePDF');
 const upload = multer({ dest: 'uploads/' });
 app.use('/static', express.static('public'));
-const port = 3000;
+const port = 3001;
 const bodyParser = require("body-parser");
 const formData = require("express-form-data");
 const os = require("os");
